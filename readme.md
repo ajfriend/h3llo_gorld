@@ -24,7 +24,7 @@ go run values.go
 
 ## Get `h3-go`ing
 
-Next there's some `go` package management stuff.
+Next, there's some `go` package management stuff.
 
 Run:
 
@@ -32,7 +32,7 @@ Run:
 go mod init github.com/ajfriend/h3llo_gorld
 ```
 
-where, as far as I can tell, `github.com/ajfriend/h3llo_gorld` is any unique identifier. 
+where, as far as I can tell, `github.com/ajfriend/h3llo_gorld` could be any unique identifier. 
 
 Then run:
 
@@ -42,7 +42,7 @@ go mod tidy
 
 You'll end up with 2 new files: `go.mod` and `go.sum`.
 
-Now, you should be able to run the example:
+Finally, you should be able to run the example:
 
 ```shell
 go run h3example.go
