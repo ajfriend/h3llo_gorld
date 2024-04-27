@@ -47,3 +47,5 @@ Finally, you should be able to run the example:
 ```shell
 go run h3example.go
 ```
+
+which should print out `8928308280fffff`.
