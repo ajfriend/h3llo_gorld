@@ -15,16 +15,19 @@ On my Mac:
 brew install go
 ```
 
-Create the `values.go` file as in the example (also included here),
+Create the `values.go` file as in the example (also included in this repo),
 and then run:
 
 ```
 go run values.go
 ```
 
+That should confirm that you can compile and run
+basic `go` programs.
+
 ## Get `h3-go`ing
 
-Next, there's some `go` package management stuff.
+Next, there's some `go` package management stuff so our example program `h3example.go` can find the `h3-go` package.
 
 Run:
 
